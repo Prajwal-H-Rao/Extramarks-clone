@@ -1,0 +1,39 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@layer base {
+    .font-montserrat {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    /* Size utilities for Tailwind v4 */
+    .size-16 {
+        width: 4rem;
+        height: 4rem;
+    }
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.animate-float {
+    animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+    animation: float 6s ease-in-out 1s infinite;
+}
