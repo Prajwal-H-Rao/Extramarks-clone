@@ -4,9 +4,6 @@ const ConductOffline = () => {
   return (
     <section className="relative py-16 bg-orange-400 p-10">
       {/* Hashtag Label */}
-      <div className="absolute right-8 top-8 transform rotate-90 origin-top-right text-2xl font-bold text-gray-400">
-        #AdvancingEducation
-      </div>
 
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center gap-8">

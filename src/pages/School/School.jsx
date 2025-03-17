@@ -8,6 +8,7 @@ import FosteringEdJourney from "../../Components/Hero/schools/TValues";
 import CounterStats from "../../Components/Stats/schools/Tstat";
 import InnovativeSolutions from "../../Components/Hero/schools/Banner";
 import ConductOffline from "../../Components/Hero/schools/ConductOffline";
+import TransformativePower from "../../Components/Hero/schools/SliderBanner";
 
 const School = () => {
   return (
@@ -19,6 +20,7 @@ const School = () => {
       <CounterStats />
       <InnovativeSolutions />
       <ConductOffline />
+      <TransformativePower />
       <PartnersClients />
       <Footer />
     </div>
